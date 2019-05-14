@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>LWC Mashup - ag-grid and lwc-search-box</title>
+
+        <!-- ag-grid web component -->
+        <script src="/node_modules/ag-grid-community/dist/ag-grid-community.js"></script>
+        <script src="/node_modules/ag-grid-webcomponent/src/agGrid.js"></script>
+
+        <!-- lwc-search-box web component -->
+        <script src="/node_modules/lwc-search-box/dist/app.js"></script>
+
+        <!-- Application code -->
+        <link rel="stylesheet" href="public/style.css" />
+        <script src="public/app.js"></script>
+    </head>
+
+    <body>
+        <!-- Site logo -->
+        <div class="logo">
+            <img src="public/logo.png" alt="National Parks data" />
+        </div>
+
+        <!-- LWC Web Component -->
+        <wc-search-box
+            auto-search-min-length="0"
+            auto-search-delay="200"
+            placeholder-text="Search"
+        ></wc-search-box>
+
+        <!-- AG-Grid Web Component -->
+        <div class="grid">
+            <ag-grid
+                group-headers
+                suppress-row-click-selection
+                row-selection="multiple"
+                class="ag-theme-balham"
+            ></ag-grid>
+        </div>
+    </body>
+</html>

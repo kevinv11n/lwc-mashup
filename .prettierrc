@@ -1,0 +1,15 @@
+{
+  "trailingComma": "none",
+  "singleQuote": true,
+  "tabWidth": 4,
+  "overrides": [
+    {
+      "files": "**/*.html",
+      "options": { "parser": "lwc" }
+    },
+    {
+      "files": "**/*.json",
+      "options": { "tabWidth": 2 }
+    }
+  ]
+}
