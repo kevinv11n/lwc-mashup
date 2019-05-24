@@ -273,6 +273,11 @@ colors@1.0.3:
   resolved "https://npmregistry-rw.herokuapp.com/colors/-/colors-1.0.3/0433f44d809680fdeb60ed260f1b0c262e82a40b.tgz#0433f44d809680fdeb60ed260f1b0c262e82a40b"
   integrity sha1-BDP0TYCWgP3rYO0mDxsMJi6CpAs=
 
+colors@>=0.6.0:
+  version "1.3.3"
+  resolved "https://npmregistry-rw.herokuapp.com/colors/-/colors-1.3.3/39e005d546afe01e01f9c4ca8fa50f686a01205d.tgz#39e005d546afe01e01f9c4ca8fa50f686a01205d"
+  integrity sha512-mmGt/1pZqYRjMxB1axhTo16/snVZ5krrKkcmMeVKxzECMMXoCgnvTPp10QgHfcbQZw8Dq2jMNG6je4JlWU0gWg==
+
 commander@^2.14.1, commander@^2.9.0:
   version "2.20.0"
   resolved "https://npmregistry-rw.herokuapp.com/commander/-/commander-2.20.0/d58bb2b5c1ee8f87b0d340027e9e94e222c5a422.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
@@ -1103,7 +1108,7 @@ micromatch@^3.1.8:
     snapdragon "^0.8.1"
     to-regex "^3.0.2"
 
-mime@^1.6.0:
+mime@^1.2.9, mime@^1.6.0:
   version "1.6.0"
   resolved "https://npmregistry-rw.herokuapp.com/mime/-/mime-1.6.0/32cd9e5c64553bd58d19a568af452acff04981b1.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
   integrity sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
@@ -1181,6 +1186,15 @@ nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://npmregistry-rw.herokuapp.com/nice-try/-/nice-try-1.0.5/a3378a7696ce7d223e88fc9b764bd7ef1089e366.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
+
+node-static@^0.7.11:
+  version "0.7.11"
+  resolved "https://npmregistry-rw.herokuapp.com/node-static/-/node-static-0.7.11/60120d349f3cef533e4e820670057eb631882e7f.tgz#60120d349f3cef533e4e820670057eb631882e7f"
+  integrity sha512-zfWC/gICcqb74D9ndyvxZWaI1jzcoHmf4UTHWQchBNuNMxdBLJMDiUgZ1tjGLEIe/BMhj2DxKD8HOuc2062pDQ==
+  dependencies:
+    colors ">=0.6.0"
+    mime "^1.2.9"
+    optimist ">=0.3.4"
 
 normalize-package-data@^2.3.2:
   version "2.5.0"
@@ -1267,7 +1281,7 @@ opener@~1.4.0:
   resolved "https://npmregistry-rw.herokuapp.com/opener/-/opener-1.4.3/5c6da2c5d7e5831e8ffa3964950f8d6674ac90b8.tgz#5c6da2c5d7e5831e8ffa3964950f8d6674ac90b8"
   integrity sha1-XG2ixdflgx6P+jlklQ+NZnSskLg=
 
-optimist@0.6.x:
+optimist@0.6.x, optimist@>=0.3.4:
   version "0.6.1"
   resolved "https://npmregistry-rw.herokuapp.com/optimist/-/optimist-0.6.1/da3ea74686fa21a19a111c326e90eb15a0196686.tgz#da3ea74686fa21a19a111c326e90eb15a0196686"
   integrity sha1-2j6nRob6IaGaERwybpDrFaAZZoY=
